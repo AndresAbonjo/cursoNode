@@ -229,4 +229,34 @@ console.log(mes.sort());
 
 var array = [1, 54, 4, 3, 7, 8, 5, 34];
 var order = array.sort((a, b) => a - b);
-console.log(order.sort());
+console.log(order);
+
+var array = [1, 54, 4, 3, 7, 8, 5, 34];
+var order = array.sort((a, b) => b-a);
+console.log(order);
+
+
+//splice mutable
+
+var nombres=['andres', 'martina','javier'];
+nombres.splice(1)
+console.log(nombres);
+
+var nombres=['andres', 'martina','javier'];
+nombres.splice(1,1)
+console.log(nombres);
+
+var nombres=['andres', 'martina','javier'];
+nombres.splice(1,1, 'pepiño')
+console.log(nombres);
+
+
+//SLICE inmutable
+
+var nombres=['andres', 'martina','javier'];
+var resul=nombres.slice(1,2); //no incluye la posicion 2, es HASTA esa
+console.log(resul);
+
+var nombres=['andres', 'martina','javier'];
+var resul=nombres.slice(1,3); 
+console.log(resul);
