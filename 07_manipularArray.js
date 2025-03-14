@@ -214,10 +214,19 @@ var csvGenerator = (array, separador = ",") => {
 
 csvGenerator(estudiantes);
 
+// concat
+var array = [1, 2, 3, 4, 5];
+var array2 = [6, 7, 8, 9];
+console.log(array.concat(array2));
 
-var array=[1,2,3,4,5];
-var array2=[6,7,8,9];
-console.log( array.concat(array2));
+// SORT
 
+var array = [1, 54, 4, 3, 7, 8, 5, 34];
+console.log(array.sort());
 
-console.log("hola");
+var mes = ["dic", "ene", "mar", "may", "abr"];
+console.log(mes.sort());
+
+var array = [1, 54, 4, 3, 7, 8, 5, 34];
+var order = array.sort((a, b) => a - b);
+console.log(order.sort());
