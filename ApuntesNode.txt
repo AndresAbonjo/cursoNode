@@ -1,0 +1,26 @@
+instalamos npm
+Con ello, instalamos dependencias necesarias:
+
+AXIOS: es una biblioteca de JavaScript que se usa para hacer peticiones HTTP
+    Soporta promesas (usa .then() y async/await).
+    Manejo automático de JSON (convierte la respuesta automáticamente).
+
+EXPRESS: framework para Node.js que facilita la creación de servidores web y APIs.
+
+NODEMON:
+    npm i -D nodemon.  (-D es para que una dependencia se descargue como desarrollo)
+    es una herramienta que reinicia automáticamente tu servidor de Node.js cada vez que 
+    detecta cambios en tu código. Así, no tienes que detener y volver a ejecutar node server.js manualmente en cada cambio.
+
+
+Modulos nativos de Node:
+FS: ermite leer, escribir, modificar y gestionar archivos y directorios
+    const fs = require('fs');
+
+PATH: manejar y manipular rutas
+    const path = require('path');
+
+
+Software:
+POSTMAN:herramienta que te permite probar APIs de manera sencilla. 
+Con ella puedes hacer peticiones GET, POST, PUT, DELETE y más, sin necesidad de escribir código en un cliente HTTP.
