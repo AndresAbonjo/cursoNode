@@ -35,9 +35,7 @@ app.post("/", (req, res) => {
 
 app.put("/:id", (req, res) => {
   let {
-    params: { id },
-  } = req;
-  let { body: dataUpdate } = req;
+    params: { id },body: dataUpdate} = req;
   let user = Service.updateUser(id, dataUpdate);
   res.json({
     message: `Usuario ${id} ha sido actualizado`,
