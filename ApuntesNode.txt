@@ -11,6 +11,12 @@ NODEMON:
     npm i -D nodemon.  (-D es para que una dependencia se descargue como desarrollo)
     es una herramienta que reinicia automáticamente tu servidor de Node.js cada vez que 
     detecta cambios en tu código. Así, no tienes que detener y volver a ejecutar node server.js manualmente en cada cambio.
+    
+    Para no tenerque escribir cada vez nodemon index.js, metermos en el package.json:
+    "scripts": {
+    "dev":"nodemon index.js"
+  },
+  y escribimos en la consola npm run dev, para ejecutar el script
 
 
 Modulos nativos de Node:
@@ -24,3 +30,7 @@ PATH: manejar y manipular rutas
 Software:
 POSTMAN:herramienta que te permite probar APIs de manera sencilla. 
 Con ella puedes hacer peticiones GET, POST, PUT, DELETE y más, sin necesidad de escribir código en un cliente HTTP.
+
+MOCKAROO: web para generar datos falsos
+
+extension: relative path (ctrl+shift+h) y te pone la ruta de la relatvo del archiivo que quieras
